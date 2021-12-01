@@ -29,6 +29,7 @@ struct ButtonExample: View {
                 print("Button was pressed")
             }, label: {
                 Text("Press me")
+                    .font(.largeTitle)
             })
             .buttonStyle(.bordered)
 
